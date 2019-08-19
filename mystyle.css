@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+#titolo_digit {
+    color: blue;
+}
+body {
+    background-color: red;
+}
