@@ -21,6 +21,35 @@
   <div id="risultato">
 
   </div>
+  <script id="movie" type="text/x-handlebars-template">
+  <div class="movie">
+    <ul>
+      <li><span class="bold">Tipo:</span> <span> {{type}}</span> </li>
+      <li><span class="bold">Titolo:</span> <span class="movie-title"> {{title}}</span> </li>
+      <li><span class="bold">Titolo originale:</span><span class="original_title"> {{originalTitle}}</span></li>
+      <li><span class="bold">Lingua:</span><span class="movie-lan"> {{{movieLan}}}</span></li>
+      <li><span class="bold">Voto:</span><span class="movie-rate"> {{{movieRate}}}</span></li>
+      {{{img}}}
+    </ul>
+  </div>
+</script>
+<script id="movie-adv" type="text/x-handlebars-template">
+  <div class="movie">
+    <div class="img-wrapper">
+      {{{img}}}
+    </div>
+    <div class="info-wrapper">
+      <h1>{{title}}</h1>
+      <ul>
+        <li><span class="bold">Tipo:</span> <span> {{type}}</span> </li>
+        <li><span class="bold">Titolo originale:</span><span class="original_title"> {{originalTitle}}</span></li>
+        <li><span class="bold">Lingua:</span><span class="movie-lan"> {{{movieLan}}}</span></li>
+        <li><span class="bold">Voto:</span><span class="movie-rate"> {{{movieRate}}}</span></li>
+      </ul>
+    </div>
+  </div>
+</script>
+
 
     <script src="main.js"></script>
 </body>
